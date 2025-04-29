@@ -1,0 +1,28 @@
+Here is the `.gitignore` file content again for your reference:
+
+```plaintext
+# Maven target directory
+/target/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+```
+
+Place this file in the root directory of your project, and Git will automatically exclude the specified files and directories.

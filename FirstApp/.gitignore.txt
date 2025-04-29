@@ -1,0 +1,26 @@
+```plaintext
+# Maven target directory
+/target/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+```
+
+This will ensure Git ignores the specified files and directories. Save the `.gitignore` file, and Git will automatically exclude these files when staging changes.
